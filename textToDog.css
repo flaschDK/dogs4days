@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+}
+
+.dog-card{
+    padding: 20px;
+    filter: drop-shadow(0 0 0.35rem rgb(0, 0, 0, 0.5));
+    border-radius: 15px;
+    max-width: 300px;
+    background-color: white;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.p--light{
+    color: rgb(147, 146, 146);
+}
